@@ -1,0 +1,188 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    background: url('images/paris2.jpg');
+    background-position: fixed;
+    background-size: cover;
+}
+
+
+.information{
+    height: 40vh;
+    width: 60%;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h1 {
+   
+    text-align: center;
+    font-size: 4rem;
+    color: yellow;
+    border: solid 3px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(0,0,0,0.3);
+    
+}   
+
+.input-group{
+    text-align: center;
+    margin-top: 2%;
+    color: yellow;
+}
+.form-control {
+    width: 200px;
+    height: 45px;
+    background-color: white;
+    color: yellow;
+    font-size: 1.1rem;
+}
+.btn-default {
+    width: 100px;
+    height: 45px;
+    
+    background-color:rgb(16, 36, 61);
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+
+.location, .temperature {
+    height: 20vh; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    .town {
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+}
+
+.temperature {
+    height: 13vh;
+}
+
+.temperature div {
+    width: 35%;
+    height: 150px;
+    
+    background-color:rgba(21, 39, 50,0.6);
+    border-radius: 15px;
+    color: black;
+    color: white;
+}
+
+.row {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 1.2rem;
+    }
+}
+
+.degree-section {
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    justify-content: center;
+    cursor: pointer; 
+    
+    span {
+        margin: 0px 10px;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 40px;
+
+    }
+    h4 {
+        
+        padding-top: 1.5em;
+        border-bottom: 4px dashed yellow;
+        padding-bottom: 1.5rem;
+        
+        text-align: center;
+    }
+}
+
+.container-humidite{
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    justify-content: center;
+    cursor: pointer; 
+    
+    span {
+        margin: 0px 10px;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 40px;
+
+    }
+    h4 {
+        
+        padding-top: 1.5em;
+        border-bottom: 4px dashed yellow;
+        padding-bottom: 1.5rem;
+        
+        text-align: center;
+    }
+}
+
+.location-timezone {
+    width: 300px;
+    
+}
+
+
+#icone {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#container-icone  {
+    
+    background-color: rgba(239,239,239,0.4);
+    border-radius : 50%;
+    border: solid  rgba(239,239,239,0.42) 9px;
+    width: 90px; 
+    height: 90px;
+}
+
+.news {
+    height: 20vh;
+    width: 80%;
+    background-color: green;
+    margin-top: 10px;
+}

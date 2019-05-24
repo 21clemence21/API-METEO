@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="meteo.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <h1 class="titre">WEATHER FORECAST</h1>
+  
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Paris"  id="cityName" name="q" >
+      <span class="input-group-btn">
+      <button  onclick="citySearch()"  class="btn btn-default">Submit</button>
+      </span>
+    </div>
+  </header>
+
+
+
+  <div class="information">
+      <div class="location">
+          <h3 class="town">coucou</h3>
+          <div>Dans votre ville il est</div>
+          <h3 class="location-timezone">Timezone</h3>
+      </div>
+      
+      <div class="temperature">
+        <div class="degree-section">
+            <div class="degree-temperature-titre">
+                <h4>Température Exterieure </h4>
+            </div>
+            
+            <div class="row">
+                <h2 class="temperature-degree">34</h2>
+                <span>°C</span>
+            </div>
+        </div>
+    
+        <div class="container-humidite">
+          <div class="humidite-titre">
+              <h4>Taux d'humidité </h3>
+          </div>
+          <div class="row">
+              <h2 class="humidite"></h2>
+              <span>%</span>
+          </div>
+        </div>
+
+        <div  id="container-icone">
+          <img id="icone" src="" alt="">
+        </div>
+
+      </div>
+  </div>
+
+  <div class="news">
+        <h4>A paris il est </h4>
+        <h2 class="date-du-jour">HELLO</h2>
+  </div>
+        
+
+<script type="text/javascript" src="meteo.js"></script>
+
+</body>
+</html>

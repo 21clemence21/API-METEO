@@ -1,0 +1,48 @@
+API --> lien
+fetch -> axios
+console.log(); 
+
+input buton london 
+
+par defaut paris 
+horaire
+temperature 
+humidité 
+lieu 
+temps eclairé nuageux blabla
+icone affiché 
+
+actualité de la ville
+
+API REST 
+inventé en 2000 par roy fielding 
+basé sur http requetes du client et du serveur 
+Critères rest : sans etat (le serveur ne garde pas les informations du client) - cacheable (qui garde les infos du clients) - orienté client-serveur - 
+
+différents types d'API 
+REST _ envoi d'une requete et reception d'une reponse Representational State Transfer
+Leçon de vocabulaire : RESTful est un adjectif désignant une API REST, donc une API REST est RESTful.
+SOAP_ envoi d'une enveloppe autour d'une requete et securisation du process 
+
+const heure = doc.queryselctor choper ou on veut aller pour mettre la donnée 
+fetch (adresse) 
+  .then (res => res.json())
+  .then(data => {
+     console.log(data); 
+     div.textContent = data.cherchercequoiveut.encorelaouonveut
+
+
+
+function requete(){
+  var cityName=mon id de cityname.value
+  console.log(cityName);
+
+    fetch (adresse+city) 
+  .then (res => res.json())
+  .then(data => {
+     console.log(data); 
+     div.textContent = data.cherchercequoiveut.encorelaouonveut
+
+
+
+  
